@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="67">
+    <author>MISSYB</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Winter Cow Barn</en> 
+        <de></de>
+        <sw></sw>
+	</title>
+    <description>
+<en><![CDATA[
+]]></en>
+
+<de><![CDATA[
+]]></de>
+
+<sw><![CDATA[
+]]></sw>
+
+</description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+	<storeItems>
+        <storeItem xmlFilename="winterBarn.xml"/>
+    </storeItems>
+</modDesc>
