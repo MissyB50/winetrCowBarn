@@ -6,23 +6,23 @@
   </Asset>
 
   <Files>
-    <File fileId="27" filename="$data/maps/mapAlpine/textures/props/alpsRoadFence01_diffuse.png"/>
-    <File fileId="28" filename="$data/maps/mapAlpine/textures/props/alpsRoadFence01_normal.png"/>
-    <File fileId="29" filename="$data/maps/mapAlpine/textures/props/alpsRoadFence01_specular.png"/>
+    <File fileId="28" filename="$data/maps/mapAlpine/textures/props/alpsRoadFence01_diffuse.png"/>
+    <File fileId="29" filename="$data/maps/mapAlpine/textures/props/alpsRoadFence01_normal.png"/>
+    <File fileId="30" filename="$data/maps/mapAlpine/textures/props/alpsRoadFence01_specular.png"/>
     <File fileId="17" filename="$data/maps/textures/shared/snow_diffuse.dds"/>
     <File fileId="18" filename="$data/maps/textures/shared/snow_normal.dds"/>
     <File fileId="3" filename="$data/maps/textures/shared/snow_specular.png"/>
     <File fileId="7" filename="$data/placeables/lizard/bunkerSilo/bunkerSilo_diffuse.dds"/>
     <File fileId="8" filename="$data/placeables/lizard/bunkerSilo/bunkerSilo_normal.dds"/>
     <File fileId="9" filename="$data/placeables/lizard/bunkerSilo/bunkerSilo_specular.dds"/>
-    <File fileId="30" filename="$data/placeables/rudolfHormann/grate_diffuse.png"/>
-    <File fileId="31" filename="$data/placeables/rudolfHormann/grate_normal.png"/>
-    <File fileId="32" filename="$data/placeables/rudolfHormann/grate_specular.png"/>
-    <File fileId="24" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_diffuse.png"/>
-    <File fileId="25" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_normal.png"/>
-    <File fileId="26" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_specular.png"/>
-    <File fileId="22" filename="$data/placeables/vogelsang/fillmasterS/vogelsangLogo_diffuse.png"/>
-    <File fileId="23" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="31" filename="$data/placeables/rudolfHormann/grate_diffuse.png"/>
+    <File fileId="32" filename="$data/placeables/rudolfHormann/grate_normal.png"/>
+    <File fileId="33" filename="$data/placeables/rudolfHormann/grate_specular.png"/>
+    <File fileId="25" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_diffuse.png"/>
+    <File fileId="26" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_normal.png"/>
+    <File fileId="27" filename="$data/placeables/vogelsang/fillmasterS/fillmasterS_specular.png"/>
+    <File fileId="23" filename="$data/placeables/vogelsang/fillmasterS/vogelsangLogo_diffuse.png"/>
+    <File fileId="24" filename="$data/shaders/decalShader.xml"/>
     <File fileId="2" filename="$data/shaders/placeableShader.xml"/>
     <File fileId="19" filename="$data/shaders/snowHeapShader.xml"/>
     <File fileId="6" filename="$data/shared/default_normal.dds"/>
@@ -40,9 +40,9 @@
 
   <Materials>
     <Material name="alpsRoadFence01_mat" materialId="4">
-      <Texture fileId="27"/>
-      <Normalmap fileId="28"/>
-      <Glossmap fileId="29"/>
+      <Texture fileId="28"/>
+      <Normalmap fileId="29"/>
+      <Glossmap fileId="30"/>
     </Material>
     <Material name="default" materialId="5">
       <Texture fileId="15"/>
@@ -50,16 +50,16 @@
       <Glossmap fileId="13"/>
     </Material>
     <Material name="fillmasterS_mat" materialId="6" customShaderId="2">
-      <Texture fileId="24"/>
-      <Normalmap fileId="25"/>
-      <Glossmap fileId="26"/>
+      <Texture fileId="25"/>
+      <Normalmap fileId="26"/>
+      <Glossmap fileId="27"/>
       <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
       <CustomParameter name="snowScale" value="1 0 0 0"/>
     </Material>
     <Material name="grate_mat" materialId="7">
-      <Texture fileId="30"/>
-      <Normalmap fileId="31"/>
-      <Glossmap fileId="32"/>
+      <Texture fileId="31"/>
+      <Normalmap fileId="32"/>
+      <Glossmap fileId="33"/>
     </Material>
     <Material name="i3d_default_material" materialId="8">
       <Texture fileId="7"/>
@@ -102,8 +102,10 @@
       <Normalmap fileId="18" bumpDepth="0.5"/>
       <Glossmap fileId="3"/>
     </Material>
-    <Material name="vogelsangLogo_mat" materialId="18" alphaBlending="true" customShaderId="23">
-      <Texture fileId="22"/>
+    <Material name="UnnamedMaterial" materialId="170" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="vogelsangLogo_mat" materialId="18" alphaBlending="true" customShaderId="24">
+      <Texture fileId="23"/>
       <Normalmap fileId="6"/>
       <Glossmap fileId="13"/>
       <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
@@ -196,15 +198,16 @@
         <TransformGroup name="storage" nodeId="104"/>
         <TransformGroup name="straw" nodeId="105">
           <Shape shapeId="15" name="exactFillRootNodeStraw" translation="4.77478 0 16.9975" scale="0.336389 1 0.298319" static="true" collisionMask="1073741824" nodeId="106" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="16" name="plane" nodeId="169" materialIds="170" distanceBlending="false"/>
         </TransformGroup>
         <TransformGroup name="milkTank" nodeId="107">
-          <Shape shapeId="16" name="milkTrigger" translation="-4.8 1.5 20.7" static="true" trigger="true" collisionMask="1073741824" nodeId="108" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="17" name="milkTrigger" translation="-4.8 1.5 20.7" static="true" trigger="true" collisionMask="1073741824" nodeId="108" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           <TransformGroup name="milkingRobot1" translation="-7.328 0.06 13.9263" nodeId="109"/>
           <TransformGroup name="aiLoadingNodeMilk" translation="-4.8 1.5 20.7" rotation="0 180 0" nodeId="110"/>
           <TransformGroup name="milkContainer" translation="-4.8 1.5 20.7" rotation="0 -270 0" nodeId="111"/>
         </TransformGroup>
         <TransformGroup name="liquidManureTank" nodeId="112">
-          <Shape shapeId="17" name="liquidManureTrigger" translation="-7.136 1.5 -23.0826" rotation="0 90 0" static="true" trigger="true" collisionMask="1073741824" nodeId="113" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="18" name="liquidManureTrigger" translation="-7.136 1.5 -23.0826" rotation="0 90 0" static="true" trigger="true" collisionMask="1073741824" nodeId="113" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           <TransformGroup name="aiLoadingNodeLiquidManure" translation="-7.136 0 -23.0826" nodeId="114"/>
         </TransformGroup>
         <TransformGroup name="lights" nodeId="115">
@@ -224,7 +227,7 @@
         </TransformGroup>
         <TransformGroup name="waterPlaces" nodeId="128"/>
         <TransformGroup name="navigationRootNode" nodeId="129">
-          <Shape shapeId="18" name="walkingPlane" static="true" collisionMask="131072" nodeId="130" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="19" name="walkingPlane" rotation="0 -90 0" static="true" collisionMask="131072" nodeId="130" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </TransformGroup>
         <TransformGroup name="warningStripes" nodeId="131">
           <TransformGroup name="markerMilk" translation="-15.3092 0.02 -11.1423" nodeId="132"/>
@@ -233,54 +236,46 @@
           <TransformGroup name="markerFood" translation="-0.809196 0.297744 4.69036" rotation="0 -90 0" nodeId="135"/>
         </TransformGroup>
         <TransformGroup name="empty" translation="0.464364 0.09 -0.098476" nodeId="136"/>
-        <Shape shapeId="19" name="infoTrigger" translation="0 2.283 0" static="true" trigger="true" collisionMask="3145728" nodeId="137" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
-        <Shape shapeId="20" name="loadingTrigger" translation="6.72326 2.283 14.677" static="true" trigger="true" collisionMask="3145728" nodeId="138" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="20" name="infoTrigger" translation="0 2.283 0" static="true" trigger="true" collisionMask="3145728" nodeId="137" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <Shape shapeId="21" name="loadingTrigger" translation="6.72326 2.283 14.677" static="true" trigger="true" collisionMask="3145728" nodeId="138" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         <TransformGroup name="clearAreas" nodeId="139">
-          <TransformGroup name="clearArea1Start" translation="19.3113 0 8.44944" nodeId="140">
-            <TransformGroup name="clearArea1Width" translation="-38.4137 0 0" nodeId="141"/>
-            <TransformGroup name="clearArea1Height" translation="0 0 -21.5672" nodeId="142"/>
-          </TransformGroup>
-          <TransformGroup name="clearArea2Start" translation="12.003 0 -10.9943" nodeId="143">
-            <TransformGroup name="clearArea2Width" translation="-24.2246 0 0" nodeId="144"/>
-            <TransformGroup name="clearArea2Height" translation="0 0 -22.0414" nodeId="145"/>
+          <TransformGroup name="clearArea1Start" translation="-11 0 -21" nodeId="140">
+            <TransformGroup name="clearArea1Width" translation="0 0 40.5" nodeId="141"/>
+            <TransformGroup name="clearArea1Height" translation="23 0 0" nodeId="142"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="levelAreas" nodeId="146">
-          <TransformGroup name="levelArea1Start" translation="18.1438 0 8.44944" nodeId="147">
-            <TransformGroup name="levelArea1Width" translation="-34.7462 0 0" nodeId="148"/>
-            <TransformGroup name="levelArea1Height" translation="0 0 -21.5672" nodeId="149"/>
-          </TransformGroup>
-          <TransformGroup name="paintArea1Start" translation="11.6716 0.09 -11.429" nodeId="150">
-            <TransformGroup name="paintArea1Width" translation="-23.7727 0 0" nodeId="151"/>
-            <TransformGroup name="paintArea1Height" translation="-0 0 -21.383" nodeId="152"/>
+        <TransformGroup name="levelAreas" nodeId="143">
+          <TransformGroup name="levelArea1Start" translation="-11 0 -21" nodeId="144">
+            <TransformGroup name="levelArea1Width" translation="0 0 40.5" nodeId="145"/>
+            <TransformGroup name="levelArea1Height" translation="24 0 0" nodeId="146"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="empty" nodeId="153"/>
-        <TransformGroup name="indoorAreas" nodeId="154">
-          <TransformGroup name="indoorArea1Start" nodeId="155">
-            <TransformGroup name="indoorArea1Width" nodeId="156"/>
-            <TransformGroup name="indoorArea1Height" nodeId="157"/>
+        <TransformGroup name="empty" nodeId="147"/>
+        <TransformGroup name="indoorAreas" nodeId="148">
+          <TransformGroup name="indoorArea1Start" translation="-8.9 0 -18.1" nodeId="149">
+            <TransformGroup name="indoorArea1Width" translation="0 0 36.12" nodeId="150"/>
+            <TransformGroup name="indoorArea1Height" translation="19.5 0 0" nodeId="151"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="testAreas" nodeId="158">
-          <TransformGroup name="testArea1Start" nodeId="159">
-            <TransformGroup name="testArea1End" nodeId="160"/>
+        <TransformGroup name="testAreas" nodeId="152">
+          <TransformGroup name="testArea1Start" translation="-10 0 -20" nodeId="153">
+            <TransformGroup name="testArea1End" translation="22 6.52982 39" nodeId="154"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="tipOcclusionUpdateAreas" translation="0 0.09 0" nodeId="161">
-          <TransformGroup name="tipOcclusionUpdateArea1Start" nodeId="162">
-            <TransformGroup name="tipOcclusionUpdateArea1End" nodeId="163"/>
+        <TransformGroup name="tipOcclusionUpdateAreas" translation="0 0.09 0" nodeId="155">
+          <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-10 0 -20" nodeId="156">
+            <TransformGroup name="tipOcclusionUpdateArea1End" translation="22 0 39" nodeId="157"/>
           </TransformGroup>
         </TransformGroup>
-        <TransformGroup name="controlBox" translation="2.58142 1.40135 17.8826" rotation="0 -90 0" nodeId="164"/>
-        <TransformGroup name="visuals" translation="0 0.173184 0" nodeId="165">
-          <Shape shapeId="21" name="fillmasterS" translation="-7.30717 0.07 -19.2155" rotation="0 90 0" static="true" density="0.0001" nodeId="166" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
-            <Shape shapeId="22" name="decals" translation="-0.34005 3.69872 0.02644" clipDistance="50" nodeId="167" materialIds="18" castsShadows="true" receiveShadows="true" decalLayer="1"/>
-            <Shape shapeId="23" name="visual" translation="-0.000748 -0.00077 0.028678" clipDistance="200" nodeId="168" materialIds="6" castsShadows="true" receiveShadows="true"/>
-            <Shape shapeId="24" name="fence" translation="-0.001849 -0.239672 1.28655" static="true" density="0.0001" nodeId="169" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
-              <Shape shapeId="25" name="visual" translation="0 -0.026191 0.036924" clipDistance="200" nodeId="170" materialIds="4" castsShadows="true" receiveShadows="true"/>
+        <TransformGroup name="controlBox" translation="2.58142 1.40135 17.8826" rotation="0 -90 0" nodeId="158"/>
+        <TransformGroup name="visuals" translation="0 0.173184 0" nodeId="159">
+          <Shape shapeId="22" name="fillmasterS" translation="-7.30717 0.07 -19.2155" rotation="0 90 0" static="true" density="0.0001" nodeId="160" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="23" name="decals" translation="-0.34005 3.69872 0.02644" clipDistance="50" nodeId="161" materialIds="18" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="24" name="visual" translation="-0.000748 -0.00077 0.028678" clipDistance="200" nodeId="162" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="25" name="fence" translation="-0.001849 -0.239672 1.28655" static="true" density="0.0001" nodeId="163" materialIds="13" castsShadows="true" receiveShadows="true" nonRenderable="true">
+              <Shape shapeId="26" name="visual" translation="0 -0.026191 0.036924" clipDistance="200" nodeId="164" materialIds="4" castsShadows="true" receiveShadows="true"/>
             </Shape>
-            <Shape shapeId="26" name="grate" translation="0.012999 -0.249774 1.28093" static="true" clipDistance="100" nodeId="171" materialIds="7" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="27" name="grate" translation="0.012999 -0.249774 1.28093" static="true" clipDistance="100" nodeId="165" materialIds="7" castsShadows="true" receiveShadows="true"/>
           </Shape>
         </TransformGroup>
       </TransformGroup>

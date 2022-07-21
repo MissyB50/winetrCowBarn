@@ -1,0 +1,901 @@
+GIANTS Engine Runtime 9.0.0 (27910) 64bit (Build Date: Jun 23 2022)
+Copyright (c) 2008-2021, GIANTS Software GmbH (giants-software.com), All Rights Reserved.
+Copyright (c) 2003-2021, Christian Ammann and Stefan Geiger, All Rights Reserved.
+Application: FarmingSimulator2022
+Main System
+  CPU: Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz
+  Memory: 12278 MB
+  OS: Windows NT 10.0 64-bit
+Physics System
+  Version: 5.9.5
+  Thread(s): 2
+Audio System
+  Driver: SoftMixer WASAPI Stereo
+  Version: 2018.11
+  Frequency: 48000
+  Max. active sources: 256
+Render System
+  Driver: Direct 3D 12
+  Card Vendor: NVIDIA Corporation
+  Renderer: NVIDIA GeForce GTX 1660 SUPER
+  Version: 30.0.14.9676 (9.11.2021)
+  Revision: 161
+  Hardware Feature Level : 12_1
+  Windowed Mode               : on
+  V-Sync                      : on
+  Allow Tearing               : off
+  Validation Layer            : off
+  Effective Window Size       : 1920 x 1080px
+  Effective Swap Chain Size   : 1920 x 1080px
+Started 3 threads for threadpool 'Render threadpool'
+Hardware Profile
+  Level: Custom Medium
+  View Distance Factor: 1.000000
+  Shadow Quality: 1.000000 Base-Size: 2048 Filter-Size: 4
+  Shadow Focus Box: false
+  Foliage Shadows: false
+  Shader Quality: 1
+  Skip Mipmaps: 1
+  LOD Distance Factor: 1.250000
+  Terrain LOD Distance Factor: 1.000000
+  Terrain Quality: 2
+  Foliage View Distance Factor: 1.250000
+  Volume Mesh Tessellation Factor: 1.000000
+  Tyre Tracks Segments Factor: 1.500000
+  Max. Number of Shadow Lights: 1
+  Max. Number of Lights: 128
+  Max. Number of Dir Lights: 4
+  Max. Number of Lights Per Cluster: 32
+  MSAA: 1
+  Post Process AA: TAA
+  DLSS Quality: Off
+  AMD FidelityFx SR Quality: Off
+  AMD FidelityFx SR 2.0 Quality: Off
+  Sharpness: 1.00
+  Recommended Window Size: 1280 x 720px
+  Bloom Quality: 3
+  SSAO Quality: 11
+  SSAO Resolution Scaling: 0.500000
+  DOF: Disabled
+  Half Resolution DOF: Disabled
+  Cloud Quality: 2
+  Texture Streaming: Enabled
+  EnvMap Blending: Enabled
+  Dynamic Specular EnvMap: Disabled
+  Shading Rate Quality: 0
+Input System
+  Keyboard enabled
+  Mouse enabled
+  Gamepad/Joystick enabled
+  Force Feedback disabled
+  Devices:
+    XINPUT_GAMEPAD
+      Number of Axes: 6
+      Number of Buttons: 14
+Started 1 threads for threadpool 'TerrainPatchOccluderManager unique worker'
+ Used Start Parameters:
+    name FarmingSimulator2022
+    exe x64/FarmingSimulator2022Game.exe
+Platform: loading defaults
+  Setting 'Master Volume': 1.000
+  Setting 'Is Train Tabbable': false
+  Setting 'Radio Vehicle Only': false
+  Setting 'Radio Active': false
+  Setting 'Use Colorblind Mode': false
+  Setting 'Easy Arm Control': false
+  Setting 'Show Trigger Marker': true
+  Setting 'Show Help Trigger': false
+  Setting 'Show Field-Info': true
+  Setting 'Invert Y-Look': false
+  Setting 'Show Help Icons': true
+  Setting 'Radio Volume': 0.500
+  Setting 'Vehicle Volume': 0.700
+  Setting 'Environment Volume': 1.000
+  Setting 'GUI Volume': 0.500
+  Setting 'Master Volume': 1.000
+  Setting 'Music Volume': 0.500
+Farming Simulator 22
+  Version: 1.6.0.0 b18023
+  Available Languages: en de jp pl cz fr es ru it pt hu nl cs ct br tr ro kr ea da fi no sv fc
+  Language: en
+  Time: 2022-07-15 01:30:24
+  ModDesc Version: 67
+  Mod Directory: C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/
+Extra Content: Unlocked 'PORSCHE_JUNIOR'
+Extra Content: Unlocked 'ALDI_HOODIE'
+Available dlc: (Hash: 1e34e6da3250471b406a092063173ec0) (Version: 1.1.0.0) pdlc_agiPack
+Available dlc: (Hash: 49bfa385ca90594408a7f75db8783578) (Version: 1.1.0.0) pdlc_claasSaddleTracPack
+Available dlc: (Hash: dc21ec04d9c6c802a78e7f384d7872df) (Version: 1.0.0.0) pdlc_extraContentFendtBlackBeauty
+ExtraContent: Unlocked 'FENDT900BB'
+Available dlc: (Hash: 26d28a2c31f8c935da91f6a80bbfaeaf) (Version: 1.0.0.0) pdlc_extraContentMackBlackAnthem
+ExtraContent: Unlocked 'MACK_BLACK_ANTHEM'
+Available dlc: (Hash: 5870071eae37fba9ff3b13a7978dde18) (Version: 1.0.0.0) pdlc_extraContentZetor
+ExtraContent: Unlocked 'ZETOR25K'
+Available mod: (Hash: 90327d4d193dcc64e7824eadf365cea3) (Version: 1.0.2.1) FS22_additionalFieldInfo
+Available mod:  (Version: 1.0.0.0) FS22_chislet_farm
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_chislet_farm to use it in multiplayer.
+Available mod: (Hash: ef9f4bdbd525a765e01c39e18e744862) (Version: 1.2.0.0) FS22_EasyDevControls
+Available mod: (Hash: ee0058dd7948b39435a59336c6dafaa9) (Version: 1.0.3.0) FS22_noCollisionCamera
+Available mod: (Hash: d557f83c0634e6e0a1176043f277d395) (Version: 1.0.2.0) FS22_precisionFarming
+Available mod:  (Version: 1.0.0.0) FS22_riverside22
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_riverside22 to use it in multiplayer.
+Available mod: (Hash: 81a8260c4f4558ebb442784a4640c39e) (Version: 1.5.0.0) FS22_storeDeliveries
+Available mod: (Hash: 8983e2826e416cd03e53fcdea585f926) (Version: 1.0.0.1) FS22_tatraPhoenix
+Available mod: (Hash: a700e22a31daf64c6d3abf1c694bdf7a) (Version: 1.0.0.1) FS22_Wholesale
+Available mod:  (Version: 1.0.0.0) FS22_winterBarn
+Warning: Only zip mods are supported in multiplayer. You need to zip the mod FS22_winterBarn to use it in multiplayer.
+Available mod: (Hash: fab707068e9b596fc59fc55cbcebf169) (Version: 1.0.0.0) FS22_yp2425A
+dataS/character/humans/player/animations.i3d (1451.80 ms)
+dataS/character/humans/player/vehicleCharacterAnimations.i3d (8.59 ms)
+dataS/character/humans/npc/animations.i3d (145.61 ms)
+2022-07-15 01:31   Loaded 'vehicle' specializations
+2022-07-15 01:31   Loaded 'placeable' specializations
+2022-07-15 01:31   Loaded vehicle types
+2022-07-15 01:31   Loaded placeable types
+2022-07-15 01:31   Info:   Loaded construction brush types
+2022-07-15 01:31   Load dlc: pdlc_agiPack
+2022-07-15 01:31   Load dlc: pdlc_claasSaddleTracPack
+2022-07-15 01:31   Load mod: FS22_additionalFieldInfo
+2022-07-15 01:31   Load mod: FS22_EasyDevControls
+2022-07-15 01:31   Load mod: FS22_noCollisionCamera
+2022-07-15 01:31    noCollisionCamera v17.0.3 by Heady - www.planet-ls.de
+2022-07-15 01:31   Load mod: FS22_precisionFarming
+2022-07-15 01:31   Load mod: FS22_storeDeliveries
+2022-07-15 01:31   Load mod: FS22_tatraPhoenix
+2022-07-15 01:31   Load mod: FS22_Wholesale
+2022-07-15 01:31   Load mod: FS22_winterBarn
+2022-07-15 01:31   Load mod: FS22_yp2425A
+2022-07-15 01:31   Register configuration 'baseColor'
+2022-07-15 01:31   Register configuration 'design'
+2022-07-15 01:31   Register configuration 'designColor'
+2022-07-15 01:31   Register configuration 'vehicleType'
+2022-07-15 01:31   Register configuration 'design2'
+2022-07-15 01:31   Register configuration 'design3'
+2022-07-15 01:31   Register configuration 'design4'
+2022-07-15 01:31   Register configuration 'design5'
+2022-07-15 01:31   Register configuration 'design6'
+2022-07-15 01:31   Register configuration 'design7'
+2022-07-15 01:31   Register configuration 'design8'
+2022-07-15 01:31   Register configuration 'ai'
+2022-07-15 01:31 data/shared/ai/trafficCollision.i3d (3.07 ms)
+2022-07-15 01:31   Register configuration 'inputAttacherJoint'
+2022-07-15 01:31   Register configuration 'attacherJoint'
+2022-07-15 01:31   Register workAreaType 'BALER'
+2022-07-15 01:31   Register configuration 'wrappingColor'
+2022-07-15 01:31   Register configuration 'wrappingAnimation'
+2022-07-15 01:31   Register configuration 'baseMaterial'
+2022-07-15 01:31   Register configuration 'designMaterial'
+2022-07-15 01:31   Register configuration 'designMaterial2'
+2022-07-15 01:31   Register configuration 'designMaterial3'
+2022-07-15 01:31   Register configuration 'multipleItemPurchaseAmount'
+2022-07-15 01:31   Register workAreaType 'COMBINECHOPPER'
+2022-07-15 01:31   Register workAreaType 'COMBINESWATH'
+2022-07-15 01:31   Register configuration 'cover'
+2022-07-15 01:31   Register workAreaType 'CULTIVATOR'
+2022-07-15 01:31   Register workAreaType 'CUTTER'
+2022-07-15 01:31   Register configuration 'dischargeable'
+2022-07-15 01:31   Register configuration 'fillUnit'
+2022-07-15 01:31   Register configuration 'fillVolume'
+2022-07-15 01:31   Register configuration 'folding'
+2022-07-15 01:31   Register workAreaType 'FORAGEWAGON'
+2022-07-15 01:31   Register configuration 'frontloader'
+2022-07-15 01:31   Register workAreaType 'FRUITPREPARER'
+2022-07-15 01:31   Register configuration 'motor'
+2022-07-15 01:31   Register workAreaType 'MULCHER'
+2022-07-15 01:31   Register workAreaType 'MOWER'
+2022-07-15 01:31   Register configuration 'pipe'
+2022-07-15 01:31   Register configuration 'plow'
+2022-07-15 01:31   Register workAreaType 'PLOW'
+2022-07-15 01:31   Register configuration 'powerConsumer'
+2022-07-15 01:31   Register workAreaType 'RIDGEMARKER'
+2022-07-15 01:31   Register configuration 'roller'
+2022-07-15 01:31   Register workAreaType 'ROLLER'
+2022-07-15 01:31   Register workAreaType 'SALTSPREADER'
+2022-07-15 01:31   Register workAreaType 'SOWINGMACHINE'
+2022-07-15 01:31   Register workAreaType 'SPRAYER'
+2022-07-15 01:31   Register workAreaType 'STONEPICKER'
+2022-07-15 01:31   Register workAreaType 'STUMPCUTTER'
+2022-07-15 01:31   Register workAreaType 'TEDDER'
+2022-07-15 01:31   Register configuration 'tensionBelts'
+2022-07-15 01:31   Register configuration 'trailer'
+2022-07-15 01:31   Register configuration 'treeSaplingType'
+2022-07-15 01:31   Register configuration 'variableWorkWidth'
+2022-07-15 01:31   Register workAreaType 'WEEDER'
+2022-07-15 01:31   Register configuration 'wheel'
+2022-07-15 01:31   Register configuration 'rimColor'
+2022-07-15 01:31   Register workAreaType 'WINDROWER'
+2022-07-15 01:31   Register workAreaType 'DEFAULT'
+2022-07-15 01:31   Register workAreaType 'AUXILIARY'
+2022-07-15 01:31   Register configuration 'workArea'
+2022-07-15 01:31   Register configuration 'workMode'
+2022-07-15 01:31   Register configuration 'cropSensor'
+2022-07-15 01:31   Register configuration 'manureSensor'
+2022-07-15 01:31   Register configuration 'weedSpotSpray'
+2022-07-15 01:31 C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_precisionFarming/vehicles/fritzmeier/isariaProCompact/isariaProCompact.i3d (104.25 ms)
+2022-07-15 01:31 C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_precisionFarming/vehicles/johnDeere/manureSensing/manureSensing.i3d (15.61 ms)
+2022-07-15 01:31   Info: Loading ConnectionHoses from 'data/shared/connectionHoses/connectionHoses.xml'
+2022-07-15 01:31 data/shared/connectionHoses/hoses.i3d (9.44 ms)
+2022-07-15 01:31 data/shared/connectionHoses/connectors.i3d (25.97 ms)
+2022-07-15 01:31 data/shared/connectionHoses/hoseMaterialHolder.i3d (6.67 ms)
+2022-07-15 01:31 data/objects/roundbales/roundbale125/roundbale125.i3d (16.43 ms)
+2022-07-15 01:31 data/objects/roundbales/roundbale150/roundbale150.i3d (10.02 ms)
+2022-07-15 01:31 data/objects/roundbales/roundbale180/roundbale180.i3d (10.78 ms)
+2022-07-15 01:31 data/objects/squarebales/squarebale240/squarebale240.i3d (22.53 ms)
+2022-07-15 01:31 data/objects/squarebales/squarebale220/squarebale220.i3d (10.74 ms)
+2022-07-15 01:31 data/objects/squarebales/squarebale180/squarebale180.i3d (10.47 ms)
+2022-07-15 01:31 data/objects/squarebales/squarebale120/squarebale120.i3d (11.00 ms)
+2022-07-15 01:31 data/objects/squarebales/squarebale120/packedSquareBale120.i3d (9.14 ms)
+2022-07-15 01:31 data/objects/cottonModules/cottonRoundbale238.i3d (6.60 ms)
+2022-07-15 01:31 data/objects/cottonModules/cottonSquarebale488.i3d (6.26 ms)
+2022-07-15 01:31 data/objects/roundbales/biomass/biomassBale125.i3d (8.41 ms)
+2022-07-15 01:31 data/shared/aiMarker.i3d (1.74 ms)
+2022-07-15 01:31 dataS/character/animals/wild/crow/crow.i3d (30.10 ms)
+2022-07-15 01:31   Info: resetSplitShapes()
+2022-07-15 01:31 data/shared/alphabet/fontMaterialHolder.i3d (52.44 ms)
+2022-07-15 01:31 data/maps/mapFR/licensePlates/licensePlatesFR.i3d (11.29 ms)
+2022-07-15 01:31 data/effects/cutter/maize/maize_harvestReadyDry.i3d (53.29 ms)
+2022-07-15 01:31 data/effects/cutter/sunflower/sunflower_harvestReady.i3d (34.19 ms)
+2022-07-15 01:31 data/effects/cutter/maize/maize_harvestReadyGreen.i3d (22.43 ms)
+2022-07-15 01:31 data/effects/cutter/grass/grass_greenBig.i3d (26.35 ms)
+2022-07-15 01:31 data/effects/cutter/grass/grass_harvestReady.i3d (23.23 ms)
+2022-07-15 01:31 data/sky/sky.i3d (3.46 ms)
+2022-07-15 01:31 data/effects/cutter/sunflower/sunflower_greenBig.i3d (54.42 ms)
+2022-07-15 01:31 data/effects/cutter/wheat/wheat_greenBig.i3d (57.88 ms)
+2022-07-15 01:31 data/effects/cutter/wheat/wheat_harvestReady.i3d (61.31 ms)
+2022-07-15 01:31 data/effects/cutter/barley/barley_greenBig.i3d (43.44 ms)
+2022-07-15 01:31 data/effects/cutter/barley/barley_harvestReady.i3d (59.67 ms)
+2022-07-15 01:31 data/effects/cutter/oat/oat_greenBig.i3d (47.64 ms)
+2022-07-15 01:31 data/effects/cutter/oat/oat_harvestReady.i3d (34.06 ms)
+2022-07-15 01:31 data/effects/cutter/canola/canola_greenBig.i3d (50.58 ms)
+2022-07-15 01:31 data/effects/cutter/canola/canola_harvestReady.i3d (62.73 ms)
+2022-07-15 01:31 data/effects/cutter/soybean/soybean_greenBig.i3d (86.84 ms)
+2022-07-15 01:31 data/effects/cutter/soybean/soybean_harvestReady.i3d (77.23 ms)
+2022-07-15 01:31 data/effects/cutter/sorghum/sorghum_greenBig.i3d (54.33 ms)
+2022-07-15 01:31 data/effects/cutter/sorghum/sorghum_harvestReady.i3d (65.29 ms)
+2022-07-15 01:31 data/effects/cutter/maize/maize_fruits.i3d (26.38 ms)
+2022-07-15 01:31 data/effects/cutter/sunflower/sunflower_fruits.i3d (13.67 ms)
+2022-07-15 01:31 data/effects/cutter/maize/maize_threshing.i3d (31.80 ms)
+2022-07-15 01:31 data/effects/cutter/sunflower/sunflower_threshing.i3d (27.33 ms)
+2022-07-15 01:31 data/effects/fertilizer/fertilizer.i3d (95.21 ms)
+2022-07-15 01:31 data/effects/chopper/strawChopper.i3d (277.01 ms)
+2022-07-15 01:31 data/effects/tedder/tedder.i3d (89.45 ms)
+2022-07-15 01:31 data/effects/windrower/windrower.i3d (116.06 ms)
+2022-07-15 01:31 data/effects/cultivator/cultivator.i3d (65.19 ms)
+2022-07-15 01:31 data/effects/plow/plow.i3d (46.68 ms)
+2022-07-15 01:31 data/effects/pickup/pickupIN.i3d (46.91 ms)
+2022-07-15 01:31 data/effects/pickup/pickupOUT.i3d (5.82 ms)
+2022-07-15 01:31 data/effects/mower/mower.i3d (55.02 ms)
+2022-07-15 01:31 data/effects/mixerWagon/mixerWagon.i3d (11.98 ms)
+2022-07-15 01:31 data/effects/grape/grape_fruitsLeaves.i3d (10.47 ms)
+2022-07-15 01:31 data/effects/grape/grape_fruitsClean.i3d (3.58 ms)
+2022-07-15 01:31 data/effects/grape/grape_fruitsHarvested.i3d (7.76 ms)
+2022-07-15 01:31 data/effects/grape/grape_threshing.i3d (4.91 ms)
+2022-07-15 01:31 data/effects/grape/grape_prePruner.i3d (6.16 ms)
+2022-07-15 01:31 data/effects/olive/olive_fruitsLeaves.i3d (15.47 ms)
+2022-07-15 01:31 data/effects/olive/olive_fruitsClean.i3d (14.02 ms)
+2022-07-15 01:31 data/effects/olive/olive_threshing.i3d (10.78 ms)
+2022-07-15 01:31 data/effects/manure/manure.i3d (28.07 ms)
+2022-07-15 01:31 data/effects/stone/small/stone.i3d (13.64 ms)
+2022-07-15 01:31 data/effects/stone/medium/stone.i3d (12.02 ms)
+2022-07-15 01:31 data/effects/stone/big/stone.i3d (10.93 ms)
+2022-07-15 01:31 data/effects/wood/wood_cutter.i3d (9.29 ms)
+2022-07-15 01:31 data/effects/sugarcane/sugarcane_prepareFruit.i3d (10.03 ms)
+2022-07-15 01:31 data/effects/sugarcane/sugarcane_chopper.i3d (12.25 ms)
+2022-07-15 01:31 data/effects/sugarcane/sugarcane_chaffer.i3d (5.50 ms)
+2022-07-15 01:31 data/effects/sugarcane/sugarcane_cutter.i3d (9.57 ms)
+2022-07-15 01:31 data/effects/snow/snowPieces.i3d (26.04 ms)
+2022-07-15 01:31 data/effects/snow/snowDust.i3d (14.10 ms)
+2022-07-15 01:31 data/sky/rain.i3d (4.32 ms)
+2022-07-15 01:31 data/sky/snow.i3d (4.33 ms)
+2022-07-15 01:31 data/maps/mapFR/map.i3d (4911.67 ms)
+2022-07-15 01:31 data/maps/mapFR/sounds.i3d (115.90 ms)
+2022-07-15 01:31 data/foliage/decoFoliage/decoFoliageFR.i3d (79.53 ms)
+2022-07-15 01:31 data/foliage/groundFoliage/groundFoliage.i3d (163.17 ms)
+2022-07-15 01:31 data/foliage/decoBush/decoBush.i3d (52.23 ms)
+2022-07-15 01:31 data/foliage/meadow/meadowFR.i3d (85.11 ms)
+2022-07-15 01:31 data/foliage/grass/grass.i3d (15.73 ms)
+2022-07-15 01:31 data/foliage/wheat/wheat.i3d (48.74 ms)
+2022-07-15 01:31 data/foliage/canola/canola.i3d (47.43 ms)
+2022-07-15 01:31 data/foliage/barley/barley.i3d (52.74 ms)
+2022-07-15 01:31 data/foliage/maize/maize.i3d (71.67 ms)
+2022-07-15 01:31 data/foliage/potato/potato.i3d (59.96 ms)
+2022-07-15 01:31 data/foliage/potato/potatoHaulm.i3d (9.69 ms)
+2022-07-15 01:31 data/foliage/sugarbeet/sugarbeet.i3d (54.89 ms)
+2022-07-15 01:31 data/foliage/sugarbeet/sugarbeetHaulm.i3d (7.61 ms)
+2022-07-15 01:31 data/foliage/sunflower/sunflower.i3d (43.59 ms)
+2022-07-15 01:31 data/foliage/soybean/soybean.i3d (47.29 ms)
+2022-07-15 01:31 data/foliage/oilseedRadish/oilseedRadish.i3d (8.43 ms)
+2022-07-15 01:31 data/foliage/poplar/poplar.i3d (17.42 ms)
+2022-07-15 01:31 data/foliage/oat/oat.i3d (20.98 ms)
+2022-07-15 01:31 data/foliage/sugarcane/sugarcane.i3d (28.95 ms)
+2022-07-15 01:31 data/foliage/sugarcane/sugarCaneHaulm.i3d (3.91 ms)
+2022-07-15 01:31 data/foliage/cotton/cotton.i3d (28.16 ms)
+2022-07-15 01:31 data/foliage/sorghum/sorghum.i3d (42.58 ms)
+2022-07-15 01:31 data/foliage/olive/olive.i3d (34.05 ms)
+2022-07-15 01:31 data/foliage/grape/grape.i3d (2.25 ms)
+2022-07-15 01:31 Info: transform group 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/savegame3/densityMap_fruits.gdm' has elements very far out from the cell edge (56.51% expansion)
+2022-07-15 01:31 data/foliage/weed/weed.i3d (63.69 ms)
+2022-07-15 01:31 data/foliage/stone/stone.i3d (7.05 ms)
+2022-07-15 01:31 FoliageTransformGroup 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/savegame3/densityMap_fruits.gdm' may need space for up to 3057739 instances (1819 per cell x 1681 cells)
+2022-07-15 01:31 FoliageTransformGroup 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/savegame3/densityMap_weed.gdm' may need space for up to 430592 instances (512 per cell x 841 cells)
+2022-07-15 01:31 FoliageTransformGroup 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/savegame3/densityMap_stones.gdm' may need space for up to 430592 instances (512 per cell x 841 cells)
+2022-07-15 01:31   Info: Load soil map 'C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/savegame3/precisionFarming_soilMap.grle'
+2022-07-15 01:31 C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_precisionFarming/shared/sprayerNozzleEffect.i3d (0.41 ms)
+2022-07-15 01:31 Load mod: Store Deliveries : v1.5.0.0 by ViperGTS96
+2022-07-15 01:31   Info: Loaded navigation cost map from savegame
+2022-07-15 01:31 data/effects/cultivator/particle/soilParticle.i3d (23.10 ms)
+2022-07-15 01:31 data/effects/cultivator/cultivatorMeshes_materialHolder.i3d (7.76 ms)
+2022-07-15 01:31 data/effects/slurry/slurryEffects_materialHolder.i3d (10.05 ms)
+2022-07-15 01:31 data/effects/unload/unloadMeshes_materialHolder.i3d (30.79 ms)
+2022-07-15 01:31 data/effects/unload/unloadParticles_materialHolder.i3d (8.11 ms)
+2022-07-15 01:31 data/effects/unload/unloadParticles.i3d (3.68 ms)
+2022-07-15 01:31 data/effects/smoke/smokeParticles.i3d (2.20 ms)
+2022-07-15 01:31 data/effects/smoke/smokeParticles_materialHolder.i3d (1.74 ms)
+2022-07-15 01:31 data/effects/wheel/wheelParticles.i3d (5.68 ms)
+2022-07-15 01:31 data/effects/bees/beesParticles.i3d (5.49 ms)
+2022-07-15 01:31 data/effects/horse/horseStepParticleSystem.i3d (3.03 ms)
+2022-07-15 01:31 data/effects/sprayer/particle/washer.i3d (3.34 ms)
+2022-07-15 01:31 data/effects/sprayer/sprayerMeshes_materialHolder.i3d (9.75 ms)
+2022-07-15 01:31 data/effects/leveler/levelerMeshes_materialHolder.i3d (4.44 ms)
+2022-07-15 01:31 data/effects/wood/particle/forestry.i3d (9.27 ms)
+2022-07-15 01:31 data/effects/belt/beltMeshes_materialHolder.i3d (21.28 ms)
+2022-07-15 01:31 data/effects/potato/particle/potato.i3d (10.34 ms)
+2022-07-15 01:31 data/effects/sugarBeet/particle/sugarBeet.i3d (3.65 ms)
+2022-07-15 01:31 data/effects/cotton/particle/cotton.i3d (7.13 ms)
+2022-07-15 01:31 data/shared/materialHolders/tensionBeltMaterialHolder.i3d (18.14 ms)
+2022-07-15 01:31 data/shared/materialHolders/tireTrackMaterialHolder.i3d (9.49 ms)
+2022-07-15 01:31 data/shared/mapTargetMarker.i3d (2.97 ms)
+2022-07-15 01:31 data/fillPlanes/fillPlane_materialHolder.i3d (3.88 ms)
+2022-07-15 01:31 data/placeables/planET/bga1mw/bga1mw_mixers.i3d (21.40 ms)
+2022-07-15 01:31 data/objects/helpIcon/icon.i3d (4.95 ms)
+2022-07-15 01:31 data/objects/helpIcon/icon.i3d (1.57 ms)
+2022-07-15 01:31 data/objects/helpIcon/icon.i3d (3.05 ms)
+2022-07-15 01:31 data/objects/helpIcon/icon.i3d (1.65 ms)
+2022-07-15 01:31 data/objects/helpIcon/icon.i3d (1.98 ms)
+2022-07-15 01:31 data/store/ui/shop.i3d (51.70 ms)
+2022-07-15 01:31 dataS/menu/licensePlate/creationBox.i3d (0.34 ms)
+2022-07-15 01:31 data/store/ui/wardrobe.i3d (106.30 ms)
+2022-07-15 01:31 data/shared/assets/marker/markerIcons.i3d (2.96 ms)
+2022-07-15 01:31 data/placeables/planET/bgaBunkerSilo/bgaBunkerSilo.i3d (2.80 ms)
+2022-07-15 01:31 data/placeables/lizard/weighingStation/weighingStationSmall/weighingStationSmall.i3d (18.30 ms)
+2022-07-15 01:31 data/shared/assets/lights/terraLed/spotlight20W.i3d (13.99 ms)
+2022-07-15 01:31 data/shared/assets/lights/terraLed/fluorescentTube50W.i3d (10.75 ms)
+2022-07-15 01:31 data/placeables/planET/bgaHall/bgaHall.i3d (17.24 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationGrainElevator/sellingStationGrainElevator.i3d (2.98 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationWood/sellingStationWood.i3d (1.82 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationWool/sellingStationWool.i3d (2.35 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationBales/sellingStationBales.i3d (2.46 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationGrainMill/sellingStationGrainMill.i3d (2.93 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationBakery/sellingStationBakery.i3d (2.97 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationCheeseDairy/sellingStationCheeseDairy.i3d (1.96 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationFarmShop/sellingStationFarmShop.i3d (2.89 ms)
+2022-07-15 01:31 data/placeables/mapFR/railroadSilo01/railroadSilo01.i3d (4.00 ms)
+2022-07-15 01:31 data/placeables/mapFR/railroadSilo02/railroadSilo02.i3d (5.06 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationTrain/sellingStationTrain.i3d (1.10 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationWoodTrain/sellingStationWoodTrain.i3d (2.45 ms)
+2022-07-15 01:31 data/placeables/mapFR/sellingStationVehicles/sellingStationVehicles.i3d (2.58 ms)
+2022-07-15 01:31 data/placeables/mapFR/gasStation/gasStation.i3d (2.33 ms)
+2022-07-15 01:31 data/placeables/lizard/sellingPoints/bhp/bhp.i3d (43.19 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/buildings/industrialWallLight.i3d (3.47 ms)
+2022-07-15 01:31 data/placeables/lizard/productionPoints/carpenterEU/carpenterEU.i3d (25.85 ms)
+2022-07-15 01:31 data/placeables/lizard/productionPoints/carpenterEU/props.i3d (83.53 ms)
+2022-07-15 01:31 data/placeables/lizard/limeStation/limeStation.i3d (12.93 ms)
+2022-07-15 01:31 data/placeables/lizard/productionPoints/raisinFactory/raisinFactory.i3d (36.29 ms)
+2022-07-15 01:31 data/placeables/lizard/productionPoints/raisinFactory/props.i3d (21.35 ms)
+2022-07-15 01:31 data/placeables/lizard/sellingPoints/debrisCrusher/debrisCrusher.i3d (14.95 ms)
+2022-07-15 01:31 data/placeables/mapFR/trainSystem/trainSystem.i3d (14.25 ms)
+2022-07-15 01:31 data/placeables/mapFR/farmBuildings/farmBuilding.i3d (51.69 ms)
+2022-07-15 01:31 data/placeables/mapFR/farmBuildings/garageProps.i3d (99.41 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/buildings/garageCeilingLamp.i3d (3.43 ms)
+2022-07-15 01:31 data/placeables/rudolfHormann/sheepBarnBig/sheepBarnBig.i3d (52.29 ms)
+2022-07-15 01:31 data/shared/assets/lights/terraLed/switch.i3d (26.72 ms)
+2022-07-15 01:31 data/placeables/rudolfHormann/controlPanel/controlPanel.i3d (19.53 ms)
+2022-07-15 01:31 data/placeables/rudolfHormann/sheepBarnBig/navigationMesh.i3d (3.37 ms)
+2022-07-15 01:31 data/placeables/lizard/fencesFarm/sheepNetFence/sheepNetFence.i3d (25.01 ms)
+2022-07-15 01:31 data/placeables/rudolfHormann/chickenBarnBig/chickenBarnBig.i3d (106.51 ms)
+2022-07-15 01:31 data/placeables/rudolfHormann/chickenBarnBig/navigationMesh.i3d (3.31 ms)
+2022-07-15 01:31 data/placeables/lizard/fencesFarm/chickenNetFence/chickenNetFence.i3d (15.63 ms)
+2022-07-15 01:31 data/vehicles/train/locomotive01/locomotive01.i3d (65.14 ms)
+2022-07-15 01:31 data/vehicles/train/wagonGrain/wagonGrain.i3d (26.11 ms)
+2022-07-15 01:31 data/vehicles/train/wagonWoodChips/wagonWoodChips.i3d (16.62 ms)
+2022-07-15 01:31 data/vehicles/train/wagonTimber/wagonTimber.i3d (11.91 ms)
+2022-07-15 01:31 data/vehicles/train/wagonSugarbeets/wagonSugarbeets.i3d (19.85 ms)
+2022-07-15 01:31 data/vehicles/train/wagonVehicles/wagonVehicles.i3d (9.99 ms)
+2022-07-15 01:31 data/vehicles/claas/scorpion1033/scorpion1033.i3d (133.77 ms)
+2022-07-15 01:31 data/shared/assets/wheelChocks/wheelChock01.i3d (14.10 ms)
+2022-07-15 01:31 data/vehicles/claas/scorpion1033/sounds/scorpion1033_loop.gls version 14 (0.25 ms)
+2022-07-15 01:31 data/shared/wheels/hubs/hubs.i3d (186.48 ms)
+2022-07-15 01:31 data/effects/wheel/wheelEmitterShape.i3d (8.21 ms)
+2022-07-15 01:31 data/shared/wheels/tires/trelleborg/TH400/R24_TH400.i3d (12.26 ms)
+2022-07-15 01:31 data/shared/wheels/rims/rim001.i3d (7.85 ms)
+2022-07-15 01:31 data/effects/exhaust/exhaust.i3d (8.21 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/workingLight12.i3d (8.65 ms)
+2022-07-15 01:31 data/shared/assets/beaconLights/lizard/beaconLight07.i3d (9.55 ms)
+2022-07-15 01:31 data/vehicles/magsi/telehandlerFork/telehandlerFork.i3d (10.09 ms)
+2022-07-15 01:31 data/vehicles/brantner/ta23065/ta23065.i3d (35.35 ms)
+2022-07-15 01:31 data/shared/assets/wheelChocks/wheelChockSupport01.i3d (4.94 ms)
+2022-07-15 01:31 data/shared/wheels/tires/trelleborg/T404/R26_5_T404.i3d (13.00 ms)
+2022-07-15 01:31 data/shared/assets/reflectors/lizard/redTriangle_01.i3d (3.83 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/sideMarker03.i3d (13.68 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/rearLight31.i3d (9.13 ms)
+2022-07-15 01:31 data/shared/assets/reflectors/lizard/yellowRound_03.i3d (2.82 ms)
+2022-07-15 01:31 data/vehicles/fendt/vario1000/vario1000.i3d (125.71 ms)
+2022-07-15 01:31 data/shared/wheels/tires/michelin/axioBib/R38_axioBib.i3d (13.06 ms)
+2022-07-15 01:31 data/shared/wheels/tires/michelin/axioBib/R46_axioBib.i3d (4.39 ms)
+2022-07-15 01:31 data/shared/wheels/weights/weight003.i3d (11.91 ms)
+2022-07-15 01:31 data/vehicles/fendt/vario1000/sounds/vario1000_loop.gls version 14 (0.85 ms)
+2022-07-15 01:31 data/shared/assets/beaconLights/lizard/beaconLight02.i3d (8.79 ms)
+2022-07-15 01:31 data/shared/assets/upperLinks/walterscheid04.i3d (11.12 ms)
+2022-07-15 01:31 data/shared/assets/toolbar.i3d (8.27 ms)
+2022-07-15 01:31 data/shared/assets/upperLinks/walterscheid01.i3d (3.77 ms)
+2022-07-15 01:31 data/objects/pallets/woolPallet/woolPallet.i3d (12.61 ms)
+2022-07-15 01:31 data/vehicles/krampe/dolly10L/dolly10L.i3d (21.22 ms)
+2022-07-15 01:31 data/shared/wheels/tires/trelleborg/TwinRadial/R22_5_TwinRadial.i3d (13.12 ms)
+2022-07-15 01:31 data/shared/assets/reflectors/lizard/whiteRectangle_01.i3d (3.91 ms)
+2022-07-15 01:31 data/shared/assets/reflectors/lizard/yellowRectangle_01.i3d (3.50 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/plateNumberLight02.i3d (6.74 ms)
+2022-07-15 01:31 data/vehicles/fendt/vario700/vario700.i3d (129.37 ms)
+2022-07-15 01:31 data/shared/wheels/tires/trelleborg/TM800/R30_TM800.i3d (12.48 ms)
+2022-07-15 01:31 data/shared/wheels/tires/trelleborg/TM800/R42_TM800.i3d (6.50 ms)
+2022-07-15 01:31 data/vehicles/fendt/vario700/sounds/vario700_loop.gls version 14 (0.41 ms)
+2022-07-15 01:31 data/shared/assets/lights/hella/hellaWorkingLightSquare_02.i3d (11.51 ms)
+2022-07-15 01:31 data/shared/assets/beaconLights/lizard/beaconLight01.i3d (4.93 ms)
+2022-07-15 01:31 data/vehicles/berthoud/vantage4300/vantage4300.i3d (76.16 ms)
+2022-07-15 01:31 data/shared/wheels/tires/trelleborg/TM100/R48_TM100.i3d (9.69 ms)
+2022-07-15 01:31 data/shared/assets/powerTakeOffs/walterscheidW.i3d (9.52 ms)
+2022-07-15 01:31 data/vehicles/kotte/tsa/tsa.i3d (64.17 ms)
+2022-07-15 01:31 data/shared/wheels/tires/continental/contiCrossTracHS3/R22_5_contiCrossTracHS3.i3d (13.26 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/rearLight22White.i3d (15.36 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/rearLight10.i3d (15.16 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/sideMarker01.i3d (15.53 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/workingLight15.i3d (9.47 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/sideMarker05Orange.i3d (14.55 ms)
+2022-07-15 01:31 data/shared/assets/reflectors/lizard/redTriangle_02.i3d (2.05 ms)
+2022-07-15 01:31 data/shared/assets/beaconLights/lizard/beaconLight03.i3d (2.51 ms)
+2022-07-15 01:31 data/vehicles/krampe/sks30_150/sks30_150.i3d (46.77 ms)
+2022-07-15 01:31 data/shared/wheels/hubs/hubTrucks.i3d (38.06 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/workingLight14.i3d (12.40 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/rearLight55.i3d (15.41 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/sideMarker15.i3d (10.01 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/sideMarker09Orange.i3d (10.62 ms)
+2022-07-15 01:31 data/vehicles/andersonGroup/rbm2000/rbm2000.i3d (55.30 ms)
+2022-07-15 01:31 data/shared/wheels/tires/trelleborg/T404/R22_5_T404.i3d (9.48 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/rearLight43.i3d (10.22 ms)
+2022-07-15 01:31 data/shared/assets/reflectors/lizard/yellowRound_01.i3d (4.68 ms)
+2022-07-15 01:31 data/vehicles/lizard/mks32/mks32.i3d (42.12 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/rearLight16.i3d (14.01 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/plateNumberLight01.i3d (11.61 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/sideMarker16Orange.i3d (6.67 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/rearLight24.i3d (2.52 ms)
+2022-07-15 01:31 C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_tatraPhoenix/phoenix.i3d (265.68 ms)
+2022-07-15 01:31 data/shared/wheels/hubs/hubTatra.i3d (8.42 ms)
+2022-07-15 01:31 C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_tatraPhoenix/sounds/tatraPhoenix_loop.gls version 14 (0.56 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/workingLight02.i3d (15.06 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/frontLight05.i3d (8.92 ms)
+2022-07-15 01:31 data/vehicles/welger/dk115/dk115.i3d (56.70 ms)
+2022-07-15 01:31 data/shared/wheels/tires/trelleborg/AW305/R16_AW305.i3d (10.66 ms)
+2022-07-15 01:31 data/shared/assets/wheelChocks/wheelChock02.i3d (4.86 ms)
+2022-07-15 01:31 data/shared/assets/reflectors/lizard/yellowRound_02.i3d (2.92 ms)
+2022-07-15 01:31 data/objects/pallets/fillablePallet/fillablePallet.i3d (8.82 ms)
+2022-07-15 01:31 data/objects/pallets/eggBoxPallet/eggBoxPallet.i3d (8.72 ms)
+2022-07-15 01:31 data/vehicles/zunhammer/ult24/ult24.i3d (35.81 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/rearLight33.i3d (12.75 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/sideMarker06Orange.i3d (13.17 ms)
+2022-07-15 01:31 data/shared/assets/lights/lizard/sideMarker06White.i3d (2.69 ms)
+2022-07-15 01:32   Setting 'Radio Volume': 0.500
+2022-07-15 01:32   Setting 'Vehicle Volume': 0.700
+2022-07-15 01:32   Setting 'Environment Volume': 1.000
+2022-07-15 01:32   Setting 'GUI Volume': 0.500
+2022-07-15 01:32   Info: Savegame Setting 'dirtInterval': 4
+2022-07-15 01:32   Info: Savegame Setting 'snowEnabled': true
+2022-07-15 01:32   Info: Savegame Setting 'growthMode': 2
+2022-07-15 01:32   Info: Savegame Setting 'fuelUsage': 2
+2022-07-15 01:32   Info: Savegame Setting 'plowingRequiredEnabled': false
+2022-07-15 01:32   Info: Savegame Setting 'weedsEnabled': false
+2022-07-15 01:32   Info: Savegame Setting 'limeRequired': false
+2022-07-15 01:32   Info: Savegame Setting 'stonesEnabled': false
+2022-07-15 01:32   Info: Savegame Setting 'economicDifficulty': 1
+2022-07-15 01:32   Info: Savegame Setting 'fixedSeasonalVisuals': 11
+2022-07-15 01:32   Info: Savegame Setting 'plannedDaysPerPeriod': 1
+2022-07-15 01:32 dataS/character/humans/player/player02.i3d (21.83 ms)
+2022-07-15 01:32 dataS/character/humans/npc/pedestrians/generic/npcCommon02_f.i3d (32.73 ms)
+2022-07-15 01:32 dataS/character/player02/brands/brand04/fendBottom.i3d (82.31 ms)
+2022-07-15 01:32 dataS/character/player02/heads/femHead01.i3d (264.62 ms)
+2022-07-15 01:32 dataS/character/player02/brands/brand07/eltenMaddoxLowBlue.i3d (108.26 ms)
+2022-07-15 01:32 dataS/character/player02/attachments/glassesReading.i3d (3.97 ms)
+2022-07-15 01:32 dataS/character/player02/hairStyles/hairStylePonytail02.i3d (11.96 ms)
+2022-07-15 01:32 dataS/character/player02/brands/brand04/fendTop.i3d (92.42 ms)
+2022-07-15 01:32 dataS/menu/construction/constructionCursorSimple.i3d (2.33 ms)
+2022-07-15 01:32 C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_winterBarn/winterCowBarn.i3d (83.31 ms)
+2022-07-15 01:32   Error: Failed to find child 1 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|1
+2022-07-15 01:32   Error: Failed to find child 2 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|2
+2022-07-15 01:32   Error: Failed to find child 3 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|3
+2022-07-15 01:32   Error: Failed to find child 4 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|4
+2022-07-15 01:32   Error: Failed to find child 5 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|5
+2022-07-15 01:32   Error: Failed to find child 6 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|6
+2022-07-15 01:32   Error: Failed to find child 7 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|7
+2022-07-15 01:32   Error: Failed to find child 8 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|8
+2022-07-15 01:32   Error: Failed to find child 1 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|1
+2022-07-15 01:32   Error: Failed to find child 2 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|2
+2022-07-15 01:32   Error: Failed to find child 3 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|3
+2022-07-15 01:32   Error: Failed to find child 4 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|4
+2022-07-15 01:32   Error: Failed to find child 5 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|5
+2022-07-15 01:32   Error: Failed to find child 6 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|6
+2022-07-15 01:32   Error: Failed to find child 7 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|7
+2022-07-15 01:32   Error: Failed to find child 8 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|8
+2022-07-15 01:32   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_winterBarn/winterBarn.xml): Missing collision mask bit '30'. Please add this bit to exact fill root node 'RootNode|winterCowBarn|winterBarn|straw|plane' of unloadTrigger
+2022-07-15 01:32 data/placeables/rudolfHormann/cowBarnMedium/navigationMesh.i3d (3.06 ms)
+2022-07-15 01:32 data/placeables/lely/astronautA5/astronautA5.i3d (25.09 ms)
+2022-07-15 01:32   Error: Failed to find child 1 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|1
+2022-07-15 01:32   Error: Failed to find child 2 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|2
+2022-07-15 01:32   Error: Failed to find child 3 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|3
+2022-07-15 01:32   Error: Failed to find child 4 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|4
+2022-07-15 01:32   Error: Failed to find child 5 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|5
+2022-07-15 01:32   Error: Failed to find child 6 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|6
+2022-07-15 01:32   Error: Failed to find child 7 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|7
+2022-07-15 01:32   Error: Failed to find child 8 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/i3d/I3DUtil.lua (407) : indexToObject
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/i3d/I3DUtil.lua (403) : iterate
+  dataS/scripts/placeables/Placeable.lua (351) : loadI3DMapping
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|8
+2022-07-15 01:32   Error: Failed to find child 1 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|1
+2022-07-15 01:32   Error: Failed to find child 2 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|2
+2022-07-15 01:32   Error: Failed to find child 3 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|3
+2022-07-15 01:32   Error: Failed to find child 4 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|4
+2022-07-15 01:32   Error: Failed to find child 5 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|5
+2022-07-15 01:32   Error: Failed to find child 6 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|6
+2022-07-15 01:32   Error: Failed to find child 7 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|7
+2022-07-15 01:32   Error: Failed to find child 8 from node lightSwitch, only 0 children given
+2022-07-15 01:32 LUA call stack:
+  dataS/scripts/i3d/I3DUtil.lua (20) : printCallstack
+  dataS/scripts/i3d/I3DUtil.lua (100) : checkChildIndex
+  dataS/scripts/xml/XMLValueType.lua (61) : indexToObject
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (168) : getValue
+  dataS/scripts/xml/XMLFile.lua (296) : closure
+  dataS/scripts/placeables/specializations/PlaceableLights.lua (160) : iterate
+  dataS/scripts/specialization/SpecializationUtil.lua (19)
+  dataS/scripts/placeables/Placeable.lua (355) : raiseEvent
+  dataS/scripts/i3d/I3DManager.lua (134) : asyncCallbackFunction
+2022-07-15 01:32   Error: Index not found: 0>9|1|8
+2022-07-15 01:32   Warning (C:/Users/MissyB/Documents/My Games/FarmingSimulator2022/mods/FS22_winterBarn/winterBarn.xml): Missing collision mask bit '30'. Please add this bit to exact fill root node 'RootNode|winterCowBarn|winterBarn|straw|plane' of unloadTrigger
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/holstein/cattleHolstein.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32 Warning: Feeding place "foodPlace1" is outside of navmesh for type dataS/character/animals/domesticated/cow/angus/cattleAngus.i3d with head offset 0.800000.
+2022-07-15 01:32   Warning: Missing filltype 'straw' in husbandry storage!
+2022-07-15 01:35 Use key J to en-/disable flight mode, keys Q and E change the altitude. No Hud Mode was moved to gsHudVisibility
+2022-07-15 01:35 Application exit request forced.
+2022-07-15 01:35 Application exit request forced.
