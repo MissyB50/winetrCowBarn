@@ -4,11 +4,16 @@
     <version>1.0.0.0</version>
     <title>
         <en>Winter Cow Barn</en> 
-        <de></de>
-        <sw></sw>
+        <de>Winter Kuhstall</de>
+        <sw>Vinterko lada</sw>
 	</title>
     <description>
-<en><![CDATA[
+<en><![CDATA[A winter shed for cows, Place up to 50 cows
+Price: 50000
+Daily Keep: 5
+
+Inputs: Water, Straw, Food
+Outputs Liquid Manure, Milk, Manure (silo extention required)
 ]]></en>
 
 <de><![CDATA[
